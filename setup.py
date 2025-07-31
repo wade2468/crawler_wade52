@@ -15,7 +15,7 @@ setup(
     long_description=long_description,  # Optional
     long_description_content_type="text/markdown",  # Optional (see note above)
     author="wade",  # Optional
-    author_email="w24810@gmail.com",  # Optional
+    author_email="wadelee2468@gmail.com",  # Optional
     classifiers=[  # Optional
         "Development Status :: 3 - Alpha",
     ],
