@@ -21,6 +21,12 @@ pip install pipenv==2022.4.8
 # 建立後會產生.venv/ 資料夾（或是放在其他地方，依照 pipenv 設定）、Pipfile 檔案、Pipfile.lock
 pipenv --python ~/.pyenv/versions/3.8.10/bin/python
 
+# 查看虛擬環境在哪裡被建立
+pipenv --venv
+
+# 移除 Pipenv 虛擬環境(在建立 Pipenv 虛擬環境的資料夾中（也就是當初執行 pipenv --python ... 的地方）執行)
+pipenv --rm
+
 # 更新Pilfile.lock (依 Pipfile 安裝相容的最新版套件)
 pipenv install
 
@@ -51,9 +57,6 @@ pyenv version
 #  查看所有 container（含已停止的）
 docker ps -a
 
-# 查看所有 image
-docker images
-
 #  停止單一 container
 docker stop <container_id_or_name>
 
@@ -69,6 +72,9 @@ docker container prune -f
 
 # 強制刪除所有 container
 docker rm -f $(docker ps -aq)
+
+# 查看所有 image
+docker images
 
 # 刪除單一 image
 docker rmi <image_id_or_name>
