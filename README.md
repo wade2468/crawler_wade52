@@ -33,6 +33,9 @@ python
 # 在虛擬的Python環境下使用Python
 pipenv run python
 
+# 檢查python路徑
+which python
+
 # 建立package
 pipenv install -e .
 
@@ -41,6 +44,9 @@ pipenv sync
 
 # 選擇 VS Code 要使用的 Python 虛擬環境
 Ctrl+Shift+P → Python: Select Interpreter
+
+# 查看當下使用的pyenv
+pyenv version
 
 #  查看所有 container（含已停止的）
 docker ps -a
