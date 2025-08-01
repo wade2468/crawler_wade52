@@ -165,6 +165,9 @@ docker network ls
 # 查看network 被誰使用
 docker network inspect {network名稱}
 
+# 移除某個network
+docker network rm {network名稱}
+
 # MySQL
 http://127.0.0.1:8000/
 
