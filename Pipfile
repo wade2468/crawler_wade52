@@ -9,10 +9,10 @@ crawlerwade52 = {editable = true, path = "."}
 celery = "==5.5.0"
 pandas = "*"
 requests = "*"
-sqlalchemy = "*"
+sqlalchemy = "==1.4.54"
 loguru = "==0.6.0"
 apscheduler = "==3.10.4"
-pymysql = "*"
+pymysql = "==1.1.1"
 numpy = "*"
 
 [dev-packages]
