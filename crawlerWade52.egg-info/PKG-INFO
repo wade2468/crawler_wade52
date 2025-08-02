@@ -43,7 +43,7 @@ pipenv --venv
 pipenv --rm
 
 # 更新Pilfile.lock (依 Pipfile 安裝相容的最新版套件)
-pipenv install
+pipenv install 
 
 # 安裝Package
 pipenv install flask==2.3.3
