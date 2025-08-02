@@ -91,6 +91,12 @@ docker rm -f $(docker ps -aq)
 # 查看所有 image
 docker images
 
+# 建立image
+docker build -f with.env.Dockerfile -t wade2468/tibame_crawler:0.0.4 .
+
+# 上傳image
+docker push wade2468/tibame_crawler:0.0.4
+
 # 刪除單一 image
 docker rmi <image_id_or_name>
 
